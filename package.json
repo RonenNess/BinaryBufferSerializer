@@ -1,0 +1,30 @@
+{
+  "name": "binary-buffer-serializer",
+  "version": "1.0.0",
+  "description": "A declarative binary serializer for NodeJS and browsers.",
+  "main": "lib/index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonenNess/BinaryBufferSerializer.git"
+  },
+  "keywords": [
+    "serialize",
+    "binary",
+    "json",
+    "buffer",
+    "serialization"
+  ],
+  "author": "Ronen Ness",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RonenNess/BinaryBufferSerializer/issues"
+  },
+  "homepage": "https://github.com/RonenNess/BinaryBufferSerializer#readme"
+}

@@ -1,0 +1,1 @@
+browserify lib/index.js --s BinaryBufferSerializer --outfile dist/binary-buffer-serializer.js & uglifyjs --keep-fnames -o dist/binary-buffer-serializer.min.js dist/binary-buffer-serializer.js

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>BinaryBufferSerializer Tests</title>
+    <meta name="description" content="BinaryBufferSerializer Tests.">
+    <meta name="author" content="Ronen Ness">
+    <script src="testizy.min.js"></script>
+    <script src="../dist/binary-buffer-serializer.js"></script>
+
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+    </style>
+
+  </head>
+  <body style="padding:2em">
+
+    <!-- results table -->
+    <table>
+      <thead>
+        <tr>
+          <th># Of Runs</th>
+          <th>Test</th>
+          <th>JSON Size</th>
+          <th>Binary Size</th>
+          <th>Compressed</th>
+          <th>JSON Time</th>
+          <th>Binary Time</th>
+          <th>% Diff</th>
+        </tr>
+      </thead>
+      <tbody id="results-body">
+      </tbody>
+    </table>
+
+    <h1 id="done-label" style="display:none;">Done!</h1>
+
+    <script src="performance.js"></script>
+    
+  </body>
+</html>
