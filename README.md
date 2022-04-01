@@ -10,7 +10,7 @@
 - Works on both NodeJS and Browsers.
 - Easy to setup and use.
 
-**caveats**:
+**Caveats**:
 
 - In many cases slower to process than JSON (especially on chrome).
 - Compression is not better than JSON when it comes to string values (but it does reduce the keys part which is something..)
